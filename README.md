@@ -2,12 +2,12 @@
 
 
 Feature: Automatically create a layer of "cloud" objects above the ground. 
-These "clouds' will dodge the position of the camera which represent player's viewpoint from a certain distance. 
+These "clouds' will dodge the position of the camera which represents player's viewpoint from a certain distance. 
 After the camera leaves the area, the clouds will grow back in a short period of time.
 
 Steps:
 
-- Create "Could" object and make it to a prefab. 
+- Create "Cloud" object and make it to a prefab. 
 This can be in any form such as a cube, sphere, or 2D sprite.
 
 - Create an empty game object to generate "clouds" to fill the map. 
